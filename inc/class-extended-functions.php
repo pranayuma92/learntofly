@@ -19,6 +19,7 @@ class ExtendedFunctions {
 		wp_enqueue_style( $this->text_domain . 'bootstrap', 	$this->directory . 'css/bootstrap.css' );
 		wp_enqueue_style( $this->text_domain . 'font-awesome', 	$this->directory . 'css/font-awesome.min.css' );
 		wp_enqueue_style( $this->text_domain . 'custom-style', 	$this->directory . 'css/style.css' );
+		wp_enqueue_style( $this->text_domain . 'poppins', '//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext');
 	}
 
 	public function render( $filePath, $viewData = null ) {
@@ -31,6 +32,7 @@ class ExtendedFunctions {
  
         return $template;
     }
+
 }
 
 $extended = new ExtendedFunctions;
