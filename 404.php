@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
- * @package Learn_to_fly
+ * @package Learn_to_fly 2
  */
 
 get_header();
